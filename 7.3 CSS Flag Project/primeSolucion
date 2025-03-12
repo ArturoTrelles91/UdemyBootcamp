@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+    /* Write your CSS Code here 
+    HAY COSAS QUE MEJORAR*/
+   div{
+      background-color:#CE1126;
+      height:600px;
+      width:900px;
+     
+   }
+   
+
+    .flag > p {
+      margin:0;
+      text-align: center;
+      height:150px;
+      width:900px;
+      font-size: 5rem;
+      color:white;
+    }
+
+      div div{
+      position: relative;  
+      background-color:#002868;
+      height:300px;
+      width:900px;
+      color:white
+    }
+
+  
+    div > div > div {    
+      position:relative; 
+        background-color:white;
+        width: 200px;
+        height:200px;
+        top:50px;
+        bottom:50px;
+        left:350px;
+        right:350px;
+        border-radius: 50%;    
+    }
+
+    div > div > div > p {
+      position:absolute;
+      font-size: 5rem;
+      color:black;
+      text-align: center;
+      top:-75px;
+    }

@@ -1,0 +1,15 @@
+/* styles.css */
+
+/* Regla para el cuerpo de la página */
+ body {
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Clase para ajustar imágenes */
+  .img-ajustada {
+    width: 300px;
+    height: auto; /* Mantiene la proporción original */
+  }
+  
+  /* Puedes agregar más reglas según necesites */

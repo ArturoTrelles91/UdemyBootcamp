@@ -1,0 +1,8 @@
+/* Regla para el cuerpo de la página */
+ .ejemplo{
+    color:blueviolet;
+  }
+/* Si creas una clase directamente como el tag que vas a usar no necesitas volver a llamar a esa clase cuando defines el tag */
+  h1{
+    color:green
+  }

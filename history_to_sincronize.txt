@@ -1,0 +1,15 @@
+ 1003  cat ~/.ssh/id_rsa.pub
+ 1004  ssh -T git@github.com
+ 1005  git remote set-url origin git@github.com:ArturoTrelles91/UdemyBootcamp.git
+ 1006  git remote add origin https://github.com/ArturoTrelles91/UdemyBootcamp.git
+ 1008  git add .
+ 1009  git commit -m "BootCamp"
+ 1010  git push
+ 1011  git push --set-upstream origin master
+ 1012  cat ~/.ssh/id_rsa.pub
+ 1013  git push --set-upstream origin master
+ 1014  ssh -T git@github.com
+ 1015  git remote set-url origin git@github.com:ArturoTrelles91/UdemyBootcamp.git
+ 1016  git push
+ 1017  git push --set-upstream origin master
+ 1018  git push

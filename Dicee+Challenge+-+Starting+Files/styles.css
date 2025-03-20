@@ -39,3 +39,7 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+
+.emoji {
+  font-size: 3rem; /* Reduce el tamaño del emoji */
+}
